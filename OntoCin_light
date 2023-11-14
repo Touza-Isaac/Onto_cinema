@@ -1,0 +1,1392 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#"
+     xml:base="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontocin="http://www.semanticweb.org/laptop/ontologies/2023/2/untitled-ontology-40#"
+     xmlns:ontocin1="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/untitled-ontology-40#received -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/untitled-ontology-40#received">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#belongs_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#belongs_to">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#evokesEmotion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#evokesEmotion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#emotion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#has_language -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#has_language"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#has_plateform -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#has_plateform">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#director"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2ontocin#producer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#streaming_plateforms"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#hasrole -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#hasrole">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_a_member_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_a_member_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Family"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_actor_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_actor_in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_author_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_author_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#music"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_available_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_available_in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Documentary_film"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media_channel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_described_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_described_in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_director_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_director_of">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#director"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_found_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_found_in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Building"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Park"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Zoo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#street"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_identified_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_identified_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#customes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_organized_By -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_organized_By">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#festivals"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_part_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#scene"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_played_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_played_in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#music"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_present_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_present_on">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#socail_media"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_producer_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_producer_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2ontocin#producer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_used_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#is_used_in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Transport"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#obtain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#obtain">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#awards"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#occured-on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#occured-on">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#festivals"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#participated_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#participated_in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#festivals"/>
+        <rdfs:comment>Cette propriété peut être utilisée pour indiquer qu&apos;un acteur ou une actrice participe à un film ou un épisode.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#represents -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#represents">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#culture"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#rewards -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#rewards">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#festivals"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#awards"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#took_place_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#took_place_in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#scene"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#scene_Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#was_played_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#was_played_in">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Documentary_film"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#TV_channel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie_Genre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie_Genre">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Le genre du film, par exemple, drame, action, comédie, etc.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie_Language -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie_Language">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie_Meaning -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie_Meaning">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>La signification ou le message principal que le film ou l&apos;épisode souhaite transmettre.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie_Rating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie_Rating">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+        <rdfs:comment>La note ou l&apos;évaluation du film, généralement sur une échelle de 1 à 10.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie_Release_Date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie_Release_Date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor_gender -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor_gender">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor_role -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor_role">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author_musicstyle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author_musicstyle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author_qualif -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author_qualif">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author_records -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author_records">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#award_category -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#award_category">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#awards"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#award_details -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#award_details">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#awards"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#award_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#award_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#awards"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#award_recipient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#award_recipient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#awards"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#award_title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#award_title">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#awards"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#community_culture -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#community_culture">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#cultural_identity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#community_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#community_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#cultural_identity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#community_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#community_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#cultural_identity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#custom_desciption -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#custom_desciption">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#customes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#custom_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#custom_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#customes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#custom_origin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#custom_origin">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#customes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#date_event -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#date_event">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#director_gender -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#director_gender">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#director"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#director_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#director_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#director"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#director_qualificstion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#director_qualificstion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#director"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#director_records -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#director_records">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#director"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#docum_desrciption -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#docum_desrciption">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Documentary_film"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#docum_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#docum_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Documentary_film"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#emotion_degree -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#emotion_degree">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#emotion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#emotion_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#emotion_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#emotion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#episode_number -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#episode_number">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#episode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#episode_title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#episode_title">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#episode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#event_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#event_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#event_descrip -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#event_descrip">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#event_frequency -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#event_frequency">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#awards"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#event_location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#event_location">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#event_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#event_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#fest_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#fest_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#festivals"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#fest_edition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#fest_edition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#festivals"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#fest_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#fest_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#festivals"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#fest_venue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#fest_venue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#festivals"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#id_plateform -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#id_plateform">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#streaming_plateforms"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#impact_action -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#impact_action">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media_contact -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media_contact">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media_channel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media_descrip -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media_descrip">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media_channel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media_link -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media_link">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media_channel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_age_limit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_age_limit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_description">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_duration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_duration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>La durée du film ou de l&apos;épisode en minutes.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_title">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Le titre du film, de l&apos;épisode ou de l&apos;événement.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#music_title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#music_title">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#music"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#music_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#music_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#music"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#plateform_address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#plateform_address">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#streaming_plateforms"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#plateform_owner -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#plateform_owner">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#streaming_plateforms"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#prod_address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#prod_address">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2ontocin#producer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#prod_category -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#prod_category">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2ontocin#producer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#prod_details -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#prod_details">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2ontocin#producer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#product_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#product_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Documentary_film"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#release_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#release_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#site_localisation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#site_localisation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#scene_Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#site_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#site_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#scene_Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#site_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#site_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#scene_Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#sound_quality -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#sound_quality">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#music"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#trademark -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#trademark">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#customes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#type_action -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#type_action">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#type_event -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#type_event">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Background_music -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Background_music">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#music"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Best_Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Best_Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#awards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Best_Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Best_Director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#awards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Best_Film -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Best_Film">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#awards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#scene_Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Bus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Bus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Cannes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Cannes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#festivals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Documentary_film -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Documentary_film">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Extra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Extra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#FESPACO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#FESPACO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#festivals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Family -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Family">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#cultural_identity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Film -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Film">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Lead_actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Lead_actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Movie"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Novelist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Novelist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Park -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Park">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#scene_Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Playwright -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Playwright">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Screenwriter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Screenwriter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Sundance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Sundance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#festivals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Supporting_actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Supporting_actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#TV_channel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#TV_channel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Theme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Theme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#music"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Transport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Transport"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Zoo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Zoo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#scene_Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#anniversary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#anniversary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#author">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#awards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#awards"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#community -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#community">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#cultural_identity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#country">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#cultural_identity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#cultural_identity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#cultural_identity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#culture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#culture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#cultural_identity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#customes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#customes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#emotion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#emotion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#episode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#episode"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#festivals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#festivals"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#inaugural -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#inaugural">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#language"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#mariage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#mariage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media_channel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media_channel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#movie_event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#music -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#music"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#scene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#scene"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#scene_Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#scene_Place"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#socail_media -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#socail_media">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#streaming_plateforms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#streaming_plateforms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#media"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#street -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#street">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#scene_Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2ontocin#producer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2ontocin#producer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#person"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Taichi_Master_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Taichi_Master_II"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/untitled-ontology-40#Statut_liberte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/untitled-ontology-40#Statut_liberte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Building"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/laptop/ontologies/2023/2/untitled-ontology-40#Tour_effel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/untitled-ontology-40#Tour_effel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Building"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Best_Actor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Best_Director"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Best_Film"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Cannes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#FESPACO"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Sundance"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Extra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Lead_actor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Supporting_actor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Novelist"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Playwright"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laptop/ontologies/2023/2/ontocin#Screenwriter"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
