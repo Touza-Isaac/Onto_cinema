@@ -35,13 +35,13 @@ This ontology can be used to represent cinematographic data in a structured mann
     :BelongsToGenre :Action, :Adventure ;
     :ProducedByStudio :StudioXYZ .
 ```
-[Download OntoCin_light.zip](https://github.com/Touza-Isaac/raw/delete/OntoCin_light.zip)
+[Download OntoCin_light.zip](OntoCin_light.zip)
 
 ## How to use the OntoCin_light
 To use the OntoCin_light.zip file, you can follow these general steps. Keep in mind that the specific instructions might vary depending on the tools or platforms you are using.
 
 1. **Download the Zip File:**
-   - Click on the provided download link: [Download OntoCin_light.zip](https://github.com/Touza-Isaac/Onto_cinema/delete/OntoCin_light.zip).
+   - Click on the provided download link: [Download OntoCin_light.zip](OntoCin_light.zip).
    - Save the zip file to your local machine.
 
 2. **Extract the Contents:**
